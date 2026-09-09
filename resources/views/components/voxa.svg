@@ -1,0 +1,58 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="210" y1="180" x2="820" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#15264A"/>
+      <stop offset="0.55" stop-color="#0C1530"/>
+      <stop offset="1" stop-color="#11182A"/>
+    </linearGradient>
+
+    <linearGradient id="bubble" x1="325" y1="350" x2="760" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#36B8FF"/>
+      <stop offset="0.45" stop-color="#4D87FF"/>
+      <stop offset="1" stop-color="#8F4DFF"/>
+    </linearGradient>
+
+    <linearGradient id="dots" x1="405" y1="505" x2="650" y2="595" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BFE7FF"/>
+      <stop offset="0.55" stop-color="#D8E7FF"/>
+      <stop offset="1" stop-color="#C7A7FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded app tile -->
+  <rect x="155" y="145" width="714" height="714" rx="165" fill="url(#bg)"/>
+
+  <!-- Speech bubble outline -->
+  <path d="
+    M420 310
+    H615
+    C710 310 772 372 772 467
+    V560
+    C772 653 710 716 615 716
+    H445
+    L300 790
+    L330 676
+    C299 646 282 603 282 551
+    V467
+    C282 372 345 310 420 310
+    Z
+
+    M420 376
+    C373 376 348 406 348 455
+    V551
+    C348 588 362 615 389 634
+    L370 700
+    L432 667
+    H615
+    C668 667 706 629 706 576
+    V455
+    C706 406 671 376 615 376
+    H420
+    Z
+  " fill="url(#bubble)" fill-rule="evenodd"/>
+
+  <!-- Message dots -->
+  <circle cx="430" cy="535" r="32" fill="url(#dots)"/>
+  <circle cx="520" cy="535" r="32" fill="url(#dots)"/>
+  <circle cx="610" cy="535" r="32" fill="url(#dots)"/>
+</svg>
